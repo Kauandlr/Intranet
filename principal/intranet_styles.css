@@ -1,0 +1,141 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+/*Gerais*/
+*{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--CORPO--*/
+body{
+    background-color: #ffffff;
+}
+/*HEADER*/
+header{
+    width: 100%;
+    height: 90px;
+    background-color:#107643;
+  
+   /*justify-content: space-between;*/
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h_imglogo{
+    width: 100%;
+    height: 80px;
+    margin-top: 5px;
+    margin-right: 30px;
+    margin-left: 21px;
+}
+.h_pesquisa{
+    width: 600px;
+    height: 40px;
+    margin-left: 72px;
+    border-radius: 50px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #ad0087;
+    color: #1a1a1a;
+}
+.h_nomeusuario{
+    margin-left: 20px;
+    font-size: 19px;
+}
+.h_risco{
+    margin-left: 8px;
+    font-size: 35px;
+}
+.h_imgusuario{
+    height: 70px;
+    
+    border-radius: 100%;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+
+    margin-left: 17px;
+    margin-right: 29px;
+}
+/*--CORPO II--*/
+.zero{
+    margin-top: 10px;
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+    height: 900px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.um{
+    width: 99%;
+    height: 880px;
+    background-color: #1a1a1a;
+
+    display: flex;
+    justify-content: center;
+}
+
+.dois{
+    width: 29%;
+    height: 880px;
+    background-color: #107643;
+
+    margin-right: 5px;
+}
+.tres{
+    width: 69%;
+    height: 880px;
+    background-color: #ffd902;
+}
+
+.quatro{
+    width: 100%;
+    height: 100px;
+    background-color: #400094;
+    
+    margin-top: 0px;
+}
+.cinco{
+    width: 100%;
+    height: 200px;
+    background-color: #0068ad;
+    
+    margin-top: 2px;
+}
+.seis{
+    width: 100%;
+    height: 300px;
+    background-color: #00b460;
+    
+    margin-top: 2px;}
+.sete{
+    width: 100%;
+    height: 50px;
+    background-color: #ad2800;
+    
+    margin-top: 2px;
+}
+.oito{
+    width: 100%;
+    height: 220px;
+    background-color: #ad0087;
+    
+    margin-top: 2px;
+}
+
+footer{
+    width: 100%;
+    height: 220px;
+    background-color: #13e700;
+    
+    margin-top: 2px;
+}
